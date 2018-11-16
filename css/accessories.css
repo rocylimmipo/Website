@@ -1,0 +1,209 @@
+
+.main-header {
+	margin: 0px;
+	font-family: Century Gothic;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.logo {
+	grid-column: 1/2;
+	grid-row: 1/3;
+}
+
+.menu {
+	grid-column: 2/5;
+	grid-row: 2/3;
+}
+
+.search-bar {
+	margin-right: 30px;
+}
+
+#main-menu {
+	margin-top: 20px;
+	padding: 0px;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(7, 1fr);
+}
+
+#main-menu img {
+	padding-left: 30px;
+}
+
+.button {
+	color: black;
+	padding: 0px 0px;
+	border-right: 1px black solid;
+}
+
+.button a {
+	color: black;
+}
+
+.button:hover a {
+	color: #ae9f61;
+}
+
+.buttonlast {
+	color: black;
+	padding: 0px 0px;
+}
+
+.buttonlast a {
+	color: black;
+}
+
+.buttonlast:hover a {
+	color: #ae9f61;
+}
+
+a {
+	text-decoration: none;
+}
+
+li:hover {
+	color: #ae9f61;
+}
+
+.second-header {
+	font-family: Century Gothic;
+	padding: 15px;
+	background: #ff7f27;
+	position: sticky;
+	top:0;
+}
+
+#second-menu {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(6, 1fr);
+	font-size: 12px;
+}
+
+/*CONTENT Section */
+
+.title {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(21, 1fr);
+	grid-gap: 10px;
+}
+
+.ac {
+	font-family: Century Gothic;
+	text-align: right;
+	color: #ff7f27;
+	grid-column: 2/12;
+	font-size: 50px;
+	line-height: 1px;
+}
+
+.title-logo {
+	padding: 33px 0 33px 43px;
+	grid-column: 13/21;
+	background: #ff7f27;
+}
+
+.bigdiv {
+	margin: 50px 70px 50px 70px;
+	background: #ff7f27;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 40px;
+	font-family: Century Gothic;
+	padding: 40px;
+}
+
+.button-item {
+	background: #505050;
+	color: white;
+	padding: 10px ;
+}
+
+.glasses {
+	padding: 20px ;
+	background: white ;
+	grid-column: 1/2 ;
+	grid-row: 1/2 ;
+}
+
+.specs {
+	padding: 20px; 
+	background: white ;
+	grid-column: 2/3 ;
+	grid-row: 1/2 ;
+}
+
+.match {
+	padding: 20px ;
+	background: white ;
+	grid-column: 1/2;
+	grid-row: 2/3 ;
+}
+
+.watch {
+	padding: 20px ;
+	background: white ;
+	grid-column: 2/3 ;
+	grid-row: 2/3 ;
+}
+
+.bracelet {
+	padding: 20px ;
+	background: white ;
+	grid-column: 1/2 ;
+	grid-row: 3/4 ;
+}
+
+.cap {
+	padding: 20px ;
+	background: white ;
+	grid-column: 2/3; 
+	grid-row: 3/4 ;
+}
+
+
+/* WEBSITES Section */
+
+.websites {
+	background: #c0c0c0;
+	padding: 2px;
+	padding-right: 40px;
+	margin-bottom: 2px;
+}
+
+#links {	
+	text-align: center;
+	font-family: Century Gothic;
+	color: #3e3e3b;
+	font-size: 15px;
+}
+
+.back-to-the-top {
+	font-family: Century Gothic;
+	font-size: 13px;
+	padding: 5px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+/* FOOTER */
+
+.footer {
+	background: #c0c0c0;
+	padding: 10px;
+	text-align: center;
+	color: #3e3e3b;
+	font-family: Century Gothic;
+}
+

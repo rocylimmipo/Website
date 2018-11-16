@@ -1,0 +1,169 @@
+/* HEADER Section */
+.main-header {
+	margin: 0px;
+	font-family: Century Gothic;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.logo {
+	grid-column: 1/2;
+	grid-row: 1/3;
+}
+
+.menu {
+	grid-column: 2/5;
+	grid-row: 2/3;
+}
+
+.search-bar {
+	margin-right: 30px;
+}
+
+#main-menu {
+	margin-top: 20px;
+	padding: 0px;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(7, 1fr);
+}
+
+#main-menu img {
+	padding-left: 30px;
+}
+
+.button {
+	color: black;
+	padding: 0px 0px;
+	border-right: 1px black solid;
+}
+
+.button a {
+	color: black;
+}
+
+.button:hover a {
+	color: #ae9f61;
+}
+
+.buttonlast {
+	color: black;
+	padding: 0px 0px;
+}
+
+.buttonlast a {
+	color: black;
+}
+
+.buttonlast:hover a {
+	color: #ae9f61;
+}
+
+a {
+	text-decoration: none;
+}
+
+li:hover {
+	color: #ae9f61;
+}
+
+.second-header {
+	font-family: Century Gothic;
+	padding: 15px;
+	background: #ff7f27;
+	position: sticky;
+	top:0;
+}
+
+#second-menu {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(6, 1fr);
+	font-size: 12px;
+}
+
+/* CONTENT Section */
+
+.bigdiv {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	font-family: Century Gothic;
+	grid-gap: 50px;
+	margin: 50px 70px 50px 70px;
+}
+
+.div-one {
+	grid-column: 1/3;
+	grid-row: 1/3;
+	background-color: #ff7700;
+	padding: 0px 50px 50px 50px;
+}
+
+.faqs {
+	grid-row: 1/2;
+	color: white;
+	font-size: 35px;
+}
+
+.questions {
+	grid-row: 2/3;
+	background: white;
+	padding: 50px;
+}
+
+li {
+	list-style: none;
+}
+
+.branches {
+	grid-column: 3/4;
+	padding-top: 140px;
+}
+
+.branches h1 {
+	font-family: Century Gothic;
+	margin-top: 30px;
+	color: #3e3e3b;
+}
+
+/* WEBSITES Section */
+
+.websites {
+	background: #c0c0c0;
+	padding: 2px;
+	padding-right: 40px;
+	margin-bottom: 2px;
+}
+
+#links {	
+	text-align: center;
+	font-family: Century Gothic;
+	color: #3e3e3b;
+	font-size: 15px;
+}
+
+.back-to-the-top {
+	font-family: Century Gothic;
+	font-size: 13px;
+	padding: 5px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+/* FOOTER */
+
+.footer {
+	background: #c0c0c0;
+	padding: 10px;
+	text-align: center;
+	color: #3e3e3b;
+	font-family: Century Gothic;
+}
